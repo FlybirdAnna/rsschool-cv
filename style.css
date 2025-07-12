@@ -58,12 +58,12 @@ a {
     border: 5px solid rgb(164, 214, 216);
     border-radius: 20%;
 } 
-.h1 h2{
+.name h2{
     margin-bottom: 20px;
     font-size: 1.3rem;
     letter-spacing: 2px;
 }
-.h1{   
+.name{   
     color: #211974;
     font-size: 2rem;
     font-family: "Poppins", sans-serif;
