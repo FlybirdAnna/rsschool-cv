@@ -20,30 +20,44 @@ a {
 }
 .left-column{
     width: 45%;
-    padding: 40px;
+    padding: 30px;
     background-color: rgb(164, 214, 216);
 }
 .right-column{
     width: 55%;
-    padding: 40px;
+    padding: 30px;
 }
 .nav{
     display: flex;
     justify-content: space-between;
     flex-direction:column;
     max-width: 100%;
-    }
+    flex-wrap: wrap;
+    align-content:space-between;
+}
+.nav ul{
+    padding-left: 0;
+    width: 100%;
+}
 .nav-menu{
     display: inline;
     align-items: center;
     width: 150px;
-    padding: 0 30px;
-    font-size: 15px;
+    padding: 0 2.2rem;
+    font-size: 1.1rem;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
     transition: .3s;
     }
+.nav-menu:hover {
+    border-bottom: 2px solid rgb(15, 15, 49);
+    transition: opacity 0.3s;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    border-radius: 4px;
+    background-color: rgb(164, 214, 216);
+
+}
 .me{
     padding: 30px;
     text-align: center;
@@ -82,7 +96,10 @@ a {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-    }
+}
+.right-column .h2 h2{
+       background-color: rgb(164, 214, 216);
+}
 .left_info{
         padding: 0 ;
 }
@@ -103,7 +120,7 @@ a {
 .aboutme {
     color:rgb(15, 15, 49);
     text-align:justify; 
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -147,5 +164,5 @@ footer {
     align-items: center;
     text-align: center;
     position: relative;
-    padding: 1.5rem 0.5rem;
+    padding: 2rem 0.5rem;
 }
