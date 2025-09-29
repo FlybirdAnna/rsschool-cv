@@ -40,10 +40,7 @@
 
 ## Проекты
 
-### [TaskFlow — менеджер задач](https://github.com/ivanivanov/taskflow)  
-- Fullstack-приложение на React + Node.js + MongoDB.  
-- Реализованы авторизация, drag-and-drop, уведомления и dark mode.  
-- Использованы: TypeScript, Context API, Axios, MongoDB Atlas.
+
 
 
 ---
